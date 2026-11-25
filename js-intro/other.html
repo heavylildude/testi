@@ -1,0 +1,28 @@
+<style>
+    .card {
+        position: relative;
+        padding: 10px;
+        margin: 10px;
+        float: left;
+        background-color: yellow;
+        font-size: 30px;
+    }
+</style>
+<div id="here">something</div>
+<script>
+    var x = "hello";
+    var y = "1";
+    var z = 1;
+    var zz = 1;
+    var a = ["tan", "nay", "grace", "rach", "huhahhahaahahahahahahahahahah", "vel", "gis", "tan", "nay", "grace", "rach", "ab", "vel", "tan", "nay", "grace", "rach", "ab", "vel", "gis", "tan", "nay", "grace", "rach", "ab", "vel"];
+    
+    var stitch = "";
+    window.onload = function() {
+        for (var i = 0; i < a.length; i++) {
+            stitch = stitch + "<div class='card'>" + a[i] + "</div>";
+        }
+        document.getElementById("here").innerHTML = stitch;
+
+    }
+</script>
+
